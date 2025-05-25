@@ -1,4 +1,4 @@
-let gameseq = [];  // jaise jaise game color dega(c1,c2,c3,c4) waise-waise gameseq me color aate rhega push hoke.. 
+let gameseq = [];  // jaise-jaise game color flash krta hai(c1,c2,c3,c4), waise-waise gameseq me color aate rhega push hoke.. 
 let userseq = [];
 
 let h2 = document.querySelector("h2");
@@ -38,7 +38,7 @@ function LevelUp(){
     // choose rand button which is going to flash..
     let randIdx = Math.floor(Math.random()*4);
     let randCol = btns[randIdx];
-    let randBtn = document.querySelector(`.${randCol}`);       // V.V.I line mst mja aa gya..
+    let randBtn = document.querySelector(`.${randCol}`);       // Understand this line
      
     gameseq.push(randCol);
     // flash the random button....
@@ -63,7 +63,7 @@ function checkAns(idx){
 }
 
 function butnpress(){
-        let btn = this;    // jo button user press kia hai.. 
+        let btn = this;    // the button press by user.. 
         userflash(btn);
 
         usercolor = btn.getAttribute("id");
