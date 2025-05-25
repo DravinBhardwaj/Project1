@@ -1,0 +1,45 @@
+h1{
+    /* It centers the element horizontally, but for this to work, the element must have a defined width. */
+    /* width:fit-content;  tells the browser:
+    "Make the box just big enough to hold the text."
+    Now the box is small, and there's empty space on the left and right.
+    Then, when you use: */
+    margin:0 auto;
+    width:fit-content;
+}
+h2{
+    margin:0 auto;
+    width:fit-content;
+}
+
+.btn{
+   height:100px;
+   width:100px;
+   text-align:center;
+   border:5px solid black;
+   border-radius:20px;
+   margin:0 auto;
+   margin : 2rem;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+.c1{
+    background-color:blueviolet;
+}
+.c2{
+    background-color:cornflowerblue;
+}
+.c3{
+    background-color:chocolate;
+}
+.c4{
+    background-color:chartreuse;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
